@@ -1,0 +1,44 @@
+### SHOW ALL
+
+GET http://127.0.0.1:8000/api/patients
+
+### SHOW SPECIFIC RECORD
+
+GET http://127.0.0.1:8000/api/patients/1
+
+### CREATE
+
+POST http://127.0.0.1:8000/api/patients
+content-type: application/json
+
+{
+        "firstname": "Maria",
+        "lastname": "Tersa",
+        "email": "mariater@gmail.com",
+        "birthdate": "11-26-1995",
+        "zipcode": "6524",
+        "phone": "09104448645",
+        "age": 26,
+        "gender": "F",
+        "address": "CDO"
+}
+
+### UPDATE BY ID
+
+PUT http://127.0.0.1:8000/api/patients/1
+content-type: application/json
+
+{
+        //enter what you want to edit
+        "firstname": "Ace",
+        "lastname": "Seraphine"
+}
+
+
+### DELETE BY ID
+
+DELETE http://127.0.0.1:8000/api/patients/1
+
+### SEARCH FIRSTNAME
+
+GET http://127.0.0.1:8000/api/patients/search/ani

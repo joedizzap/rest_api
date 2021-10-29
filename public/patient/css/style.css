@@ -1,0 +1,121 @@
+
+/* ############### REGISTER PATIENT RECORDS CSS */
+
+.addformgrp .addform .form-control{
+    border-radius: 5px;
+    border-color: #aaacad;
+    font-family: Tahoma;
+    /* box-shadow: 0px 0px 4px #bfbfbf; */
+}
+.addformgrp .addform .form-control:focus{
+    border-color: #12a4e3;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px #12a4e3; 
+}
+.addformgrp .addform .form-control::placeholder{
+    color: #bcd1d4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif UI;
+}
+.addformgrp .addform .form-control:focus::placeholder {
+    color: #12a4e3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif UI;
+}
+.addformgrp .addform .form-control:focus + .fas{
+    color: #20c997;
+}
+/* .form-group i {
+    position: absolute; 
+    top: 10px;
+    right: 30px;
+    color:  #d9d9d9;
+}  */
+.addformgrp .form-group input{
+    height:42px;
+}
+.addformgrp .form-group .req{
+    color: #ff3333; 
+}
+.addformgrp .form-group input[type="date"]::-webkit-inner-spin-button,
+    input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+.addformgrp .form-group input[type="date"]:focus {
+    color:#12a4e3;
+}
+.addformgrp .form-group input[type="text"]:focus {
+    color:#12a4e3;
+}
+.addformgrp .form-group input[type="date"] {
+    color:#d9d9d9;
+}
+.labels{
+    color: #545657;
+}
+.errorr{
+    color: #ff3333;
+}
+option{
+    background-color: #f2f2f2;
+    color: black;
+    font-weight:bold;
+    font-style: Sogoe UI;
+}
+
+
+/* ############### SHOW PATIENT RECORDS CSS */
+
+table
+{
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 8px;
+    overflow:hidden;
+    height: 400px;
+}
+th{
+    font-size: 15px;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    color: #12a4e3;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+td{
+    font-size: 14px;
+    /* text-align: center; */
+    padding: 20px 20px 20px 20px;
+    color: #423c3c;
+}
+i.cancel{
+    color: red;
+}
+i.edit{
+    color: orange;
+}
+.table_background 
+{
+    background-color: white;
+    box-shadow: 0px 0px 10px #bfbfbf;
+    border-radius: 10px;
+}
+.titleapp{
+    font-size: 22px; 
+    font-family:Segoe UI ;
+    margin-top:20px;
+    margin-bottom:50px; 
+    text-align: left;
+}
+.scroll {
+    border: none;
+    padding: 5px;
+    font: 24px/36px sans-serif;
+    overflow-y: scroll;
+    height:400px
+}
+.hidecon{
+    color: red;
+}
