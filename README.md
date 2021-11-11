@@ -8,3 +8,5 @@ Deloso, Romar P.
 Login:
 email: superadmin@gmail.com
 pw: 12345678admin
+
+SQL: patients.sql
