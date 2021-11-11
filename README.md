@@ -1,9 +1,9 @@
 Group Members:
-Pilapil, Joedizza May Noverra L.
-Magprarok, Mary Jane C.
-Escamis, Rica Zendlie A.
-Tomboc, Jerald R.
-Deloso, Romar P.
+PILAPIL, Joedizza May Noverra L.
+MAGPAROK, Mary Jane C.
+ESCAMIS, Rica Zendlie A.
+TOMBOC, Jerald R.
+DELOSO, Romar P.
 
 Login:
 email: superadmin@gmail.com
